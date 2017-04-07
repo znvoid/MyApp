@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <com.znvoid.demo1.view.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/account_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/account_switch"
+            android:layout_marginLeft="42dp"
+            android:src="@drawable/head_1"
+            app:border_color="#FFffffff"
+            app:border_width="1dp" />
+
+        <EditText
+            android:id="@+id/account_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/account_head"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Switch
+            android:id="@+id/account_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:textOff="我"
+            android:textOn="机器人" />
+
+        <TextView
+            android:id="@+id/account_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/account_head"
+            android:layout_alignTop="@+id/account_switch"
+            android:layout_marginRight="20dp"
+            android:text="人物头像及昵称" />
+
+        <com.znvoid.demo1.view.DeskGridView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/account_gv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/account_head"
+            android:layout_above="@+id/account_bt_save"
+            android:layout_marginTop="22dp"
+            android:numColumns="3"
+            app:mbackground="@drawable/accountitem_bground"
+             >
+        </com.znvoid.demo1.view.DeskGridView>
+
+        <Button
+            android:id="@+id/account_bt_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:text="保存" />
+
+</RelativeLayout>

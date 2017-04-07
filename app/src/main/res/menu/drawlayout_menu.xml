@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/drawlayout_menu_account"
+        android:icon="@drawable/ic_user"
+        android:title="账户信息"/>
+
+    <item android:id="@+id/drawlayout_menu_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="聊天"/>
+
+    <item android:id="@+id/drawlayout_menu_wifi"
+        android:icon="@drawable/ic_wifi"
+        android:title="WiFi"/>
+
+    <item android:id="@+id/drawlayout_menu_lan"
+        android:icon="@mipmap/lan"
+        android:title="局域网"/>
+
+    <item android:id="@+id/drawlayout_menu_read"
+        android:icon="@drawable/ic_desk"
+        android:title="读书"/>
+
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidingCardLayout">
+        <attr name="android:colorBackground"/>
+        <attr name="android:text"/>
+        <!--<attr name="android:canSliding"/>-->
+        <attr name="canSliding" format="boolean"/>
+    </declare-styleable>
+
+</resources>

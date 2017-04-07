@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_messages"
+        android:title="消息"
+        android:icon="@mipmap/message"/>
+    <item
+        android:id="@+id/menu_found"
+        android:title="发现"
+        android:icon="@mipmap/found"/>
+    <item
+        android:id="@+id/menu_nothing"
+        android:title="没用"
+        android:icon="@mipmap/viewgalley"/>
+</menu>

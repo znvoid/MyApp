@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Study Library</string>
+    <string name="edit_content_limit">字符长度超了！</string>
+</resources>

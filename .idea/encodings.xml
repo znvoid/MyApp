@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/BookReadingActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/adapt/BookDeskAdapt.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/adapt/MyAdapt.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/adapt/MyChatAapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/adapt/SelectorPopupAdapt.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/daim/BookImf.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/daim/Contact.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/fragment/AccountFragm.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/fragment/ChatFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/fragment/ContactsFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/fragment/DeskFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/fragment/NetBackupFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/fragment/NetFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/fragment/WifilistFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/imf/ContactsItemTouchHelperCallback.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/imf/ItemClickListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/imf/ItemTouchMoveListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/net/LinkThread.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/net/Ping.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/net/SearchThread.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/net/TCPClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/net/TCPClientThread.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/net/TCPClinetForFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/net/TCPServer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/server/ServiceIssue.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/server/TCPService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/sql/BooksSqlOpenHelp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/sql/MsgSQL.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/util/FileUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/util/TCPData.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/util/Utils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/znvoid/demo1/util/WifiUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study/src/main/java/com/znvoid/study/edittext/PasswordEditText.java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="DeskGridView">
+        <attr name="mbackground" format="reference" />
+      
+    </declare-styleable>
+    
+     <declare-styleable name="WareView">
+        <attr name="amplitude" format="float"/>
+        <attr name="waterLevel" format="fraction"/>
+        <attr name="waveLength" format="float"/>
+        <attr name="frequency" format="integer"/>
+        <attr name="waterColor" format="color"/>
+    </declare-styleable>
+
+</resources>

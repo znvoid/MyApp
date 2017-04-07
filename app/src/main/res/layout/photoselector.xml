@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#61605D">
+
+    <TextView
+        android:id="@+id/photoseletor_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:background="#88000000"
+        android:gravity="center_horizontal"
+        android:text="图片" 
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+
+    <GridView
+        android:id="@+id/photoseletor_gv"
+        android:layout_below="@+id/photoseletor_tv"
+        android:layout_above="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+      	android:background="#999999"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+      
+        android:numColumns="3"
+        >
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:gravity="bottom" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/photoseletor_bt"
+            android:layout_gravity="end" 
+            android:enabled="false"
+            android:text="发送"/>
+    </LinearLayout>
+    
+</RelativeLayout>

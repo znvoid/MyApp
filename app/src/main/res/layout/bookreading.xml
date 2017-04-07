@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   
+    <com.znvoid.demo1.bookReading.BookView
+        android:id="@+id/bookreading_bookView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       
+         />
+    
+    
+ <RelativeLayout
+        android:id="@+id/bookreading_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#aa000000"
+        android:focusable="true"
+         >
+
+        <RelativeLayout
+            android:id="@+id/textview_titlebar_backey"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/menu_bg_selector"
+            android:clickable="true"
+            android:onClick="finishactivity"
+            android:paddingBottom="5dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/backpic" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="60dp"
+            android:layout_toRightOf="@+id/textview_titlebar_backey"
+            android:text="书籍。。。"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="17sp"
+            />
+    </RelativeLayout>
+    
+
+</RelativeLayout>

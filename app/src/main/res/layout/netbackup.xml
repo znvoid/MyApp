@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.znvoid.studylibrary.edittext.PasswordEditText
+        android:id="@+id/netbackup_psdet"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1" >-->
+        <!---->
+        <!--&lt;!&ndash;<com.znvoid.demo.view.WareView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/wareView1"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_above="@+id/netbackup_bt"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentLeft="true"&ndash;&gt;-->
+             <!--&lt;!&ndash;app:waterColor="#3ce41515"/>&ndash;&gt;-->
+    <!--</RelativeLayout>-->
+    <Button
+        android:id="@+id/netbackup_bt"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/netbackup_psdet"
+        android:text="Button"
+        android:theme="@style/MyButton"
+        android:layout_weight="1"
+
+        />
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/netbackup_bt"
+        android:layout_marginTop="20dp"
+        >
+
+        <com.znvoid.studylibrary.slidingcard.SlidingCardLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="卡片1"
+            android:colorBackground="#A55"
+            app:canSliding="false"
+            />
+
+        <com.znvoid.studylibrary.slidingcard.SlidingCardLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="卡片2"
+            android:colorBackground="#5A5"
+            />
+        <com.znvoid.studylibrary.slidingcard.SlidingCardLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="卡片3"
+            android:colorBackground="#5A9"/>
+
+        <com.znvoid.studylibrary.slidingcard.SlidingCardLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="卡片4"
+            android:colorBackground="#55A"/>
+        <com.znvoid.studylibrary.slidingcard.SlidingCardLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="卡片5"
+            android:colorBackground="#bb44b9"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>
