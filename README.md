@@ -16,7 +16,6 @@
         主界面
 ![1](pic/p2.jpg)<br>
         Drawlayout布局实现侧滑菜单，Bottom navigation作为底部导航栏
-        
         ![1](pic/p3.jpg)
         
         通过UDP、Tcp协议局域网内存活的设备信息（IP及Mac地址）
